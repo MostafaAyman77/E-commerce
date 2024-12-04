@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+body {
+    width: 80%;
+    margin: auto;
+}
+.head-top {
+    width: 100%;
+    height: 5%;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.communicate , .location-details {
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+span {
+    color: #1360d3;
+    margin: 0 5px;
+}
+.whats {
+    width: fit-content;
+    text-align: center;
+    padding: 0 5px;
+    margin: 0 5px;
+    border-right: 2px solid #00000089;
+}
+.email {
+    width: fit-content;
+    padding: 0 5px;
+    text-align: center;
+}
+.email a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gmail {
+    margin-right: 5px;
+    color: #1360d3;
+}
+.location-details div {
+    width: fit-content;
+    text-align: center;
+    padding: 0 5px;
+    margin: 0 5px;
+    border-right: 2px solid #00000089;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-details div i {
+    margin-right: 5px;
+    color: #1360d3;
+}
+.head-bottom{
+    width: 100%;
+    height: 10%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search {
+    width: 35%;
+    height: 10%;
+    display: flex;
+}
+.search input {
+    width: 100%;
+    height: 30px;
+    border-radius: 2px 0 0 2px;
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #d3d3d3;
+    border-right: none;
+}
+.search button {
+    width: 64px;
+    border: 1px solid #d3d3d3;
+    border-radius: 0 2px 2px 0;
+    padding-top: 4px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+.social-websites a {
+    margin: 15px;
+    font-size: 25px;
+    color: #1360d3;
+}
+.naving {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul li  {
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+nav ul li:hover {
+    transition: all 2s;
+    background-color: #1360d3;
+    border-radius: 7px;
+}
+nav ul li:active {
+    color: #1360d3;
+    border-bottom: #1360d3;
+}
+.register {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.log {
+    padding: 5px;
+    margin: 0 0 0 10px;
+    background-color: #1360d3;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #1360d345;
+}
+
+main {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main .input-container {
+    width: 45%;
+    margin: 15px 0;
+}
+main .input-container input {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1360d3;
+    border-radius: 4px;
+}
+.btn {
+    display: inline-block;
+    margin-top: 8px;
+    border-radius: 50px;
+    background-color: #1360d3;
+    color: #fff;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 12;
+    position: relative;
+    top: 20px;
+}
+
+footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer .box-container .box {
+    flex: 1 1 23%;
+}
+footer .box-container .box h3 {
+    color: #1360d3;
+    font-size: 25px;
+    padding: 12px 0;
+}
+footer .box-container .box a {
+    display: block;
+    color: #666;
+    font-size: 15px;
+    padding: 10px 0;
+}
+footer .box-container .box a:hover {
+    color: #1360d3;
+    text-decoration: underline ;
+    transition: all 1s;
+}
+footer .credit {
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #333;
+    border-top: .1rem solid rgba(0,0,0,.1);
+}
